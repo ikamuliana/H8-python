@@ -1,0 +1,10 @@
+route/
+endpoint/       http
+url             methods     operation       tujuannya(keterangan lebih jelasnya)
+==========================================================================================================
+
+/users          + GET       --> Read    = retrieve semua daftar user yang tersedia di resource users tersebut
+/users          + POST      --> Create  = buat data baru ke dalam resource tersebut
+/users/1        + PUT       --> Updat   = merubah data yang sudah exist di resource tersebut (data id nya sesuai dengan yang disertakan)
+/users/1        + DELETE    --> Delete  = manghapus data dari resource tersebut (data idnya sesuai dengan yang disertakan)
+/users/1        + GET       --> Read    = retrieve data yang diminta (data idnya sesuai dengan yang disertakan)

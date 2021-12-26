@@ -1,0 +1,20 @@
+url frontend    : http://hacktiv8-flask-rest-005-ika.herokuapp.com/
+url swagger     : https://hacktiv8-flask-rest-005-ika.herokuapp.com/api/ui/
+url heroku      : https://dashboard.heroku.com/apps/hacktiv8-flask-rest-005-ika
+url github      :  
+
+
+====================================================================================
+$ git add .
+$ git commit -m "Add Heroku deployment files"
+$ heroku git:remote -a hacktiv8-flask-rest
+$ git push heroku master
+$ heroku open
+$ heroku run python
+$ exec(open("build_database.py").read())
+You can access your swagger from:
+https://flask-ocbc-2.herokuapp.com/api/ui/
+
+
+heroku ps
+heroku ps:stop run.(nama port)

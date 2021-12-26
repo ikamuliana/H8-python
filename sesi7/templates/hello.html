@@ -1,0 +1,15 @@
+Hello World!<br>
+<h1>This is {{template_name}}</h1><br>
+<h1>{{age}} years old</h1>
+
+
+<!-- pet_list = pets,
+pet_dict = pet_names -->
+
+{{For pet in pet_list}}
+<p>
+    {{pet}}
+</p>
+{{% endfor %}}
+<!-- {% for %}
+{% endfor %} -->

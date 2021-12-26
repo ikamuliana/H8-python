@@ -1,0 +1,9 @@
+1. buat venv baru
+    py -m venv (namafile)
+
+2. activate venv (dalam direktori yang di buat sama)
+    Scripts\activate
+
+3. run using environment
+    > setelah diarahkan ke environment activate (no.2)
+    > setelah venv aktif gunakan command "py (namafile)"
